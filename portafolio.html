@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Primeramente el normalizador -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="brd-header">
+      <nav class="container navigation-container">
+        <a class="nav-web" href="#">WebStudio</a>
+        <ul class="hero-navigation">
+          <li><a class="hero-item" href="index.html">Estudio</a></li>
+          <li class="current-nav" ><a class="current hero-item" href="portafolio.html">Portafolio</a></li>
+          <li><a class="hero-item" href="#">Contactos</a></li>
+        </ul>
+        <ul class="hero-contact">
+          <li>
+            <a class="link-contact" href="mailto:info@devstudio.com" > 
+              <svg class="icon-contact-email">
+                <use href = './images/icons/symbol-defs.svg#icon-gen-sobre'>
+              </svg>  info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link-contact" href="tel:525555296000">            
+              <svg class="icon-contact-addres">
+                <use href = './images/icons/symbol-defs.svg#icon-gen-smartphone'>
+              </svg>+52 55 5529 6000</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div  class="container">
+          <h1 class="section-title">Portafolio</h1>
+          <ul class="hero-navigation-filter button-text-filter">
+            <li><button class="current  button-hover" type="button">Todo</button></li>
+            <li><button class="button-hover" type="button">Sitio-web</button></li>
+            <li><button class="button-hover" type="button">Aplicaciones</button></li>
+            <li><button class="button-hover" type="button">Diseño</button></li>
+            <li><button class="button-hover" type="button">Marketing</button></li>
+          </ul>
+        </div>
+
+      </section>
+      <section >
+        <div class="container">
+          <ul class="img-portafolio shadow-portafolio">
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto1.jpg" alt="portafolio1" width="370" />
+                <p class="img-container-text m-0"> Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores serguros de la competencia.</p>
+              </div>
+              <h3>Tecnoduck</h3>
+              <span>Sitio-web</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto2.jpg" alt="portafolio2" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>            
+              <h3>Póster de Nueva Orleans vs</h3>
+              <h3>Estrella Dorada</h3>
+              <span>Diseño</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto3.jpg" alt="portafolio3" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>                
+              <h3>Restaurante de Mariscos</h3>
+              <span>Aplicaciones</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto4.jpg" alt="portafolio4" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>Proyecto Prime</h3>
+              <span>Marketing</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto5.jpg" alt="portafolio5" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>Proyecto Cajas</h3>
+              <span>Aplicaciones</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto6.jpg" alt="portafolio6" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>La inspiración no tiene límites</h3>
+              <span>Sitio-web</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto7.jpg" alt="portafolio7" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>Edición Limitada</h3>
+              <span>Diseño</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto8.jpg" alt="portafolio8" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>Proyecto LAB</h3>
+              <span>Marketing</span>
+            </li>
+            <li>
+              <div class="img-container"> 
+                <img src="./images/proyecto9.jpg" alt="portafolio9" width="370" />
+                <p class="img-container-text m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eveniet molestias aperiam? Porro excepturi omnis libero natus, atque, mollitia explicabo numquam cupiditate pariatur sint totam fuga et repellendus, consectetur laborum?</p>
+              </div>    
+              <h3>Negocio en Crecimiento</h3>
+              <span>Aplicaciones</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="nav-footer-all">
+          <li>
+            <a class="nav-web nav-web-footer" href="#">WebStudio</a>
+            <ul class="nav-web-footer-ul">
+              <li>
+                <address class="direccion">
+                  Ticomán 500, Ciudad de México, CDMX, México
+                </address>
+              </li>
+              <li>
+                <a
+                  class="contact-hover direccion direccion-opacidad"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact-hover direccion direccion-opacidad direccion-footer"
+                  href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h5 class="text-company">ENCUENTRENOS EN</h5>
+            <ul class="rs-company-group">
+              <li >
+                <a href="#" class="rs-company-item">
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-instagram'>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="rs-company-item">
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-twitter'>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="rs-company-item">
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-facebook'>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="rs-company-item">
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-linkedin'>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
